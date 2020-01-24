@@ -5,13 +5,35 @@ html, body{
 header{
     position: 100%;
     width: 100%;
+    height: 100%;
     font-family: 'Montserrat', sans-serif !important;
-   
-}
-.book{
     text-align: center;
 }
-.letter{
-    text-align: justify;
-}
 
+@media (min-width: 991.96px){
+    
+}
+.letter{
+    font-size: 20px;
+}
+@media (max-width: 576px){
+    .letter{
+        font-size: 10px;
+    }
+}
+@media (max-width: 576px){
+    .photo{
+        width: 20px;
+    }
+}
+.photo{
+    width: 250px;
+}
+.resume{
+    font-size: 20px;
+}
+@media (max-width: 576px){
+    .resume{
+        font-size: 15px;
+    }
+}
