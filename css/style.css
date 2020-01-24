@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    position: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+   
+}
+.book{
+    text-align: center;
+}
+.letter{
+    text-align: justify;
+}
+

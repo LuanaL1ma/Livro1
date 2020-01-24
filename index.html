@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>O poder do hábito</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-156902921-1');
+      </script> 
+</head>
+<body>
+    <header>
+        <h1 class="letter">Resumo de Livro: O Poder do Hábito — Por Que Fazemos o Que Fazemos na Vida e Nos Negócios</h1>
+        <div class="book container">
+            <figure>
+                <img src="images/livro.jpg" alt="O poder do hábito">
+            </figure>
+        </div>
+        
+        <p class="letter"> 
+            Durante os últimos dois anos, uma jovem transformou quase todos os aspectos de sua vida. Parou de fumar, correu uma maratona e foi promovida. Em um laboratório, neurologistas descobriram que os padrões dentro do cérebro dela — ou seja, seus hábitos — foram modificados de maneira fundamental para que todas essas mudanças ocorressem. Há duas décadas pesquisando ao lado de psicólogos, sociólogos e publicitários, cientistas do cérebro começaram finalmente a entender como os hábitos funcionam — e, mais importante, como podem ser transformados. Embora isoladamente pareçam ter pouca importância, com o tempo, têm um enorme impacto na saúde, na produtividade, na estabilidade financeira e na felicidade.
+        </p>
+    
+        <p class="letter">
+            Com base na leitura de centenas de artigos acadêmicos, entrevistas com mais de trezentos cientistas e executivos, além de pesquisas realizadas em dezenas de empresas, o repórter investigativo do New York Times Charles Duhigg elabora, em O poder do hábito, um argumento animador: a chave para se exercitar regularmente, perder peso, educar bem os filhos, se tornar uma pessoa mais produtiva, criar empresas revolucionárias e ter sucesso é entender como os hábitos funcionam. Transformá-los pode gerar bilhões e significar a diferença entre fracasso e sucesso, vida e morte.
+        </p>
+
+        <p class="letter">
+            Duhigg conclui por que algumas pessoas e empresas têm tanta dificuldade em mudar, enquanto outras o fazem da noite para o dia. Descobre, por exemplo, como hábitos corretos foram cruciais para o sucesso do nadador Michael Phelps, do diretor executivo da Starbucks, Howard Schultz, e do herói dos direitos civis, Martin Luther King, Jr.: “Eles tiveram êxito transformando hábitos. Todos começam com um padrão psicológico. Primeiro, há uma sugestão, ou gatilho, que diz ao seu cérebro para entrar em modo automático e desdobrar um comportamento. Depois, há a rotina, que é o comportamento em si. Para alterar um hábito, é preciso modificar os padrões que moldam cada aspecto de nossas vidas. Entendendo isso, você ganha a liberdade — e a responsabilidade — para começar a trabalhar e refazê-los”, diz o autor.
+        </p>
+
+        <p class="letter">
+            Um dos exemplos citados pelo autor diz respeito a ele próprio. Duhigg explica como conseguiu parar de consumir cookies no meio do dia de trabalho ao compreender o hábito que o levava diariamente a uma cafeteria para comê-los, mesmo sem fome — as visitas diárias ao lugar ocorriam por necessidade de socialização. “Refiz o hábito e, agora, pelas 15h30, levanto da minha mesa e procuro alguém para conversar por 10 minutos. E não como um cookie há seis meses”, conta ele. A prática é um dos segredos para a mudança: “Tarefas que parecem incrivelmente complexas no início, como aprender a tocar violão e falar uma língua estrangeira, podem se tornar muito mais fáceis depois de executadas inúmeras vezes. Maus hábitos, como fumar e beber demais, são superados quando aprendemos novas rotinas e a praticamos incessantemente.”
+        </p>
+
+        <p class="letter">
+            Há ainda, segundo Duhigg, os chamados “hábitos mestres”, capazes de desencadear uma série de reações no modo da pessoa organizar sua própria vida. Um bom exemplo de um hábito mestre é o exercício físico. “Quando as pessoas começam a se exercitar regularmente, começam a mudar outros comportamentos que não estão relacionados à atividade física. Passam a comer melhor e a levantar da cama mais cedo. Fumam menos e se tornam mais pacientes. (…) Não está completamente claro porque isso ocorre, mas está provado que exercício é um hábito mestre, que propaga mudanças em todos os aspectos da vida.
+        </p>
+        <div>
+            <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#TelaEmail"><h1>Clique aqui para receber seu livro GRÁTIS!</h1></button>
+        </div>
+    </header>
+    <div class="modal fade" id="TelaEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Digite seu email para receber o livro GRÁTIS!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <input type="email" class="form-control space-margin" id="emailTxt" placeholder="email@exemplo.com">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary btn-block" data-dismiss="modal" onclick="enviar()">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/linkme.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
